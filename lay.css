@@ -1,0 +1,114 @@
+
+.header{
+	border: 20px solid blue;
+	display: flex;
+	justify-content: center;
+}
+
+.head{
+	color: white;
+	margin-left: 50px;
+	font-size: 22;
+}	
+
+
+.header{
+ background: blue;
+ 
+}
+.cover{
+	
+  -webkit-background-image: url('https://wonderfulengineering.com/wp-content/uploads/2014/10/wallpaper-photos-31.jpg');
+ background-image: url('https://wonderfulengineering.com/wp-content/uploads/2014/10/wallpaper-photos-31.jpg');
+ -webkit-background-size: cover;
+ background-size: cover;
+ height: 500px;
+ text-align: center;
+ color: white;
+ display:flex;
+ justify-content: center;
+ 
+}
+.cover>h1{
+	margin-top: 180px;
+}
+.body{
+ background: green;
+ height: 700px;
+}
+.part{
+	grid-gap: 50px;
+	height: 700px;
+	background-color:black;
+	display: grid;
+ grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+	justify-content: center;
+
+}
+.body-part{
+	margin-top: 30px;
+   
+
+	background-color:black;
+	
+}
+.footer{
+ background: orange;
+ margin-top: 10px;
+ color: white;
+ text-align: center;
+ padding: 5px 5px;
+}
+.zone{
+	border-radius: 4px;
+	
+}
+
+.body-part:nth-child(1){
+	 -webkit-background-image: url('https://wallpapercave.com/wp/wp2739894.jpg');
+ background-image: url('https://wallpapercave.com/wp/wp2739894.jpg');
+ -webkit-background-size: cover;
+ background-size: cover;
+ 	height: 250px;
+
+}
+.body-part:nth-child(2){
+	 -webkit-background-image: url('https://wallpapercave.com/wp/wp3364335.jpg');
+ background-image: url('https://wallpapercave.com/wp/wp3364335.jpg');
+ -webkit-background-size: cover;
+ background-size: cover;
+ 	height: 250px;
+
+}
+.body-part:nth-child(3){
+	 -webkit-background-image: url('https://i.pinimg.com/736x/19/6a/42/196a42cebe1d30ac1f3156253cb3ba57.jpg');
+ background-image: url('https://i.pinimg.com/736x/19/6a/42/196a42cebe1d30ac1f3156253cb3ba57.jpg');
+ -webkit-background-size: cover;
+ background-size: cover;
+grid-row-start: 1;
+grid-row-end: 3;
+
+
+}
+.body-part:nth-child(4){
+	 -webkit-background-image: url('https://images.unsplash.com/photo-1519335553051-96f1218cd5fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFwcGxlJTIwZ2FkZ2V0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+ background-image: url('https://images.unsplash.com/photo-1519335553051-96f1218cd5fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFwcGxlJTIwZ2FkZ2V0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+ -webkit-background-size: cover;
+ background-size: cover;
+ 	height: 250px;
+
+}
+.body-part:nth-child(5){
+	 -webkit-background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVh_osnDtgd290GpzuoQ10OMmG49M2v2YfbA&usqp=CAU');
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVh_osnDtgd290GpzuoQ10OMmG49M2v2YfbA&usqp=CAU');
+ -webkit-background-size:cover;
+ background-size: cover;
+ 	height: 250px;
+
+}
+h1:hover{
+ 
+ color: red;
+ transform: rotate(45deg);
+}
+

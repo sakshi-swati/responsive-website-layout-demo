@@ -108,8 +108,7 @@ grid-row-end: 3;
 }
 h1:hover{
  
- color: red;
- transform: rotate(45deg);
+ color: blue;
 }
 
 
